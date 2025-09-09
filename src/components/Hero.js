@@ -12,7 +12,7 @@ function Hero() {
         Hi, I’m Misba 👩‍💻
       </h1>
       <p className="text-xl text-gray-300 mb-6 animate-fadeIn delay-1 max-w-2xl">
-        I am an Engineering Student passionate about coding, problem-solving, and building modern web applications using React and other technologies.
+        I am an Engineering Student passionate about problem-solving and creating modern web applications using React and other technologies.
       </p>
       <a
         href="#projects"
@@ -26,5 +26,3 @@ function Hero() {
 }
 
 export default Hero;
-
-
