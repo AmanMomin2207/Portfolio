@@ -6,7 +6,6 @@ const skillGroups = [
     items: [
       { name: "Java", desc: "Object-Oriented Programming, Backend Development" },
       { name: "JavaScript", desc: "Dynamic Web Development, ES6+" },
-      { name: "C++", desc: "DSA, Competitive Programming" },
     ],
   },
   {
@@ -14,7 +13,6 @@ const skillGroups = [
     items: [
       { name: "React.js", desc: "Frontend UI Development, SPA" },
       { name: "Next.js", desc: "Server-Side Rendering & Static Sites" },
-      { name: "Spring", desc: "Enterprise Java Framework" },
       { name: "Spring Boot", desc: "REST APIs & Microservices" },
       { name: "Swing", desc: "Java GUI Development" },
     ],

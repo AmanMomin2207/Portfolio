@@ -48,7 +48,7 @@ import { Menu, X } from "lucide-react";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
-  const menuItems = ["Home", "About", "Skills", "Projects", "Education", "Contact"];
+  const menuItems = ["Home", "About", "Skills", "Projects", "Education", "Achievements","Contact"];
 
   return (
     <div>

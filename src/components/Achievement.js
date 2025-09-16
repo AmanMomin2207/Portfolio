@@ -107,6 +107,11 @@ const achievementsData = [
     icon: <Trophy className="w-6 h-6" />,
   },
   {
+    title: "Nimbus-2k25 | Runner-up National Level Competition",
+    link: "https://drive.google.com/file/d/1C_0kNJo03UA6wsgTiXF_2RqofCtlpTxb/view?usp=sharing",
+    icon: <Medal className="w-6 h-6" />,
+  },
+  {
     title: "Advanced Java Programming with credit points",
     link: "https://drive.google.com/file/d/1st5GyIZBcvjFhYLzRutZEjvUhjq3DcSn/view",
     icon: <Medal className="w-6 h-6" />,
@@ -121,6 +126,8 @@ const achievementsData = [
     link: "https://drive.google.com/drive/u/0/folders/1rjb5FjOBwGGZGKgMIkGIUFvln9O5094G",
     icon: <Medal className="w-6 h-6" />,
   },
+  
+
 ];
 
 const leadershipData = [

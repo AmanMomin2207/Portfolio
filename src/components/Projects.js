@@ -199,6 +199,7 @@ import MovieImage from "../assets/Moviee.png"
 import TravelImage from "../assets/Travell.png"
 import LiaImage from "../assets/LiaImg.png"
 import ToDoImg from "../assets/ToDo.png"
+import ShareNestImg from "../assets/ShareNestImg.png"
 
 const projects = [
   {
@@ -235,6 +236,18 @@ const projects = [
       "Implemented database connectivity with MYSQL using JDBC for secure and reliable data handling.",
     ]
   },
+   {
+    title: "ShareNest",
+    image: ShareNestImg,
+    githubLink: "Ongoing",
+    techStack: [ "react","Tailwind-css","MongoDB","SpringBoot"],
+    points: [
+      "A full-stack file sharing application built with React, Spring Boot, and MongoDB. ",
+      "Users can upload, view, download, delete, and share files with public/private access.",
+      "featuring a modern UI with Tailwind CSS and secure authentication."
+    ]
+  },
+
   {
     title: "To_Do_List",
     image: ToDoImg,
