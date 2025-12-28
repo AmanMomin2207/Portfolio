@@ -54,7 +54,7 @@ function Navbar() {
     <div>
       {/* Navbar */}
       <header className="fixed top-0 left-0 w-full bg-white text-purple-700 shadow-md flex justify-between items-center px-6 py-4 z-50">
-        <h1 className="text-2xl font-bold">Misba Shaikh</h1>
+        <h1 className="text-2xl font-bold">Aman Momin</h1>
 
         {/* Horizontal Menu for md+ screens */}
         <nav className="hidden md:flex space-x-8 text-lg font-medium">

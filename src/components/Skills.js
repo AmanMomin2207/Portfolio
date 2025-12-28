@@ -11,10 +11,10 @@ const skillGroups = [
   {
     category: "Frameworks & Libraries",
     items: [
+      { name: "Spring Boot", desc: "REST APIs & Microservices" },
       { name: "React.js", desc: "Frontend UI Development, SPA" },
       { name: "Next.js", desc: "Server-Side Rendering & Static Sites" },
-      { name: "Spring Boot", desc: "REST APIs & Microservices" },
-      { name: "Swing", desc: "Java GUI Development" },
+      { name: "TailwindCSS", desc: "Responsive Websites" },
     ],
   },
   {

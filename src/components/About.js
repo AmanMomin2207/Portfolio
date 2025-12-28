@@ -34,7 +34,7 @@ function About() {
             <Code className="w-10 h-10 mx-auto text-indigo-600 mb-3" />
             <h4 className="font-semibold text-lg">Programming</h4>
             <p className="text-gray-600 text-sm">
-              Java, JavaScript, React.js, Next.js
+              Java, JavaScript, TypeScript, C, C++, Python
             </p>
           </div>
 
@@ -46,9 +46,9 @@ function About() {
 
           <div className="bg-pink-50 p-6 rounded-xl shadow hover:shadow-md transition text-center">
             <Rocket className="w-10 h-10 mx-auto text-pink-600 mb-3" />
-            <h4 className="font-semibold text-lg">Web Development</h4>
+            <h4 className="font-semibold text-lg">Library & Frameworks</h4>
             <p className="text-gray-600 text-sm">
-              REST APIs, Scalable Web Apps
+              Spring Boot, ReactJS, NextJs, Bootstrap, Tailwind CSS
             </p>
           </div>
 

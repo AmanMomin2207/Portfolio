@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Github, Leaf } from "lucide-react";
 
 function Contact() {
   return (
@@ -9,19 +9,19 @@ function Contact() {
       <div className="flex flex-col md:flex-row justify-center gap-8 max-w-4xl mx-auto">
         {/* Email */}
         <a
-          href="mailto:misbashaikh1107@gmail.com"
+          href="mailto:mominaman2207@gmail.com"
           className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg hover:bg-indigo-50 transition w-full md:w-1/3"
         >
           <Mail className="w-8 h-8 text-indigo-600" />
           <div className="text-left">
             <h3 className="text-lg font-semibold">Email</h3>
-            <p className="text-gray-600">misbashaikh1107@gmail.com</p>
+            <p className="text-gray-600">mominaman2207@gmail.com</p>
           </div>
         </a>
 
         {/* LinkedIn */}
         <a
-          href="https://www.linkedin.com/in/misba-shaikh-b45477257"
+          href="https://www.linkedin.com/in/aman-momin-b093a0366"
           target="_blank"
           rel="noreferrer"
           className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg hover:bg-indigo-50 transition w-full md:w-1/3"
@@ -29,13 +29,13 @@ function Contact() {
           <Linkedin className="w-8 h-8 text-blue-600" />
           <div className="text-left">
             <h3 className="text-lg font-semibold">LinkedIn</h3>
-            <p className="text-gray-600">linkedin.com/in/misba-shaikh</p>
+            <p className="text-gray-600">linkedin.com/in/aman-momin</p>
           </div>
         </a>
 
         {/* GitHub */}
         <a
-          href="https://github.com/misbashaikh3099"
+          href="https://github.com/AmanMomin2207"
           target="_blank"
           rel="noreferrer"
           className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg hover:bg-indigo-50 transition w-full md:w-1/3"
@@ -43,7 +43,21 @@ function Contact() {
           <Github className="w-8 h-8 text-gray-800" />
           <div className="text-left">
             <h3 className="text-lg font-semibold">GitHub</h3>
-            <p className="text-gray-600">github.com/misbashaikh3099</p>
+            <p className="text-gray-600">github.com/AmanMomin2207</p>
+          </div>
+        </a>
+
+        {/* Leetcode */}
+        <a
+          href="https://leetcode.com/u/aman7860/"
+          target="_blank"
+          rel="noreferrer"
+          className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg hover:bg-indigo-50 transition w-full md:w-1/3"
+        >
+          <Leaf className="w-8 h-8 text-gray-800" />
+          <div className="text-left">
+            <h3 className="text-lg font-semibold">LeetCode</h3>
+            <p className="text-gray-600">leetcode.com/u/aman7860/</p>
           </div>
         </a>
       </div>

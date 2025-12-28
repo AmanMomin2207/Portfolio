@@ -195,9 +195,10 @@ export default Projects;
 */
 import React from "react";
 import { Github, ExternalLink } from "lucide-react"; 
-import MovieImage from "../assets/Moviee.png"
+import image from "../assets/image.png"
 import TravelImage from "../assets/Travell.png"
 import LiaImage from "../assets/LiaImg.png"
+
 import ToDoImg from "../assets/ToDo.png"
 import ShareNestImg from "../assets/ShareNestImg.png"
 
@@ -205,8 +206,8 @@ const projects = [
   {
     title: "MakeMyTrip",
     image: TravelImage,
-    projectLink: "https://make-my-trip-clone-springboot-1-1e7q.onrender.com/",
-    githubLink: "https://github.com/misbashaikh3099/make-my-trip-clone-springboot.git",
+    projectLink: "https://makemytrip-6.onrender.com/",
+    githubLink: "https://github.com/AmanMomin2207/MakeMyTrip",
     techStack: ["Spring Boot", "MongoDB", "Next.js", "React.js"],
     points: [
       "Developed a full-stack travel booking application with a responsive frontend using Next.js and React.",
@@ -215,52 +216,17 @@ const projects = [
     ]
   },
   {
-    title: "Movie App",
-    image: MovieImage,
-    projectLink: "https://movie-app-nnif.onrender.com",
-    githubLink: "https://github.com/misbashaikh3099/Movie_App.git",
-    techStack: ["Tailwind CSS", "MongoDB", "Appwrite", "React.js","Vite"],
+    title: "YT - Directory",
+    image: image,
+    projectLink: "https://yc-directory4.onrender.com/",
+    githubLink: "https://github.com/AmanMomin2207/yc-directory",
+    techStack: ["Next.js", "React.js","NextAuth" , "TailwindCSs" , "Render"],
     points: [
-      "Developed a responsive single-page application (SPA) using React.js and React-Use for efficient state and lifecycle management.",
-      "Integrated Appwrite backend for user authentication, database handling, and file storage.",
-      "Utilized Vite for fast builds, hot module replacement (HMR), and improved development experience."
+      "YC Directory is a startup discovery platform built with Next.js and React.js that allows users to submit and explore startup ideas.",
+      "It uses Next.js backend APIs, MongoDB for data storage, and NextAuth for authentication.",
+      "The UI is styled with Tailwind CSS and the application is deployed on Render."
     ]
   },
-  {
-    title: "Liabrary Management System",
-    image: LiaImage,
-    githubLink: "https://github.com/misbashaikh3099/Library_Management_System",
-    techStack: [ "Java", "Swing", "MySQL", "JDBC", "Eclipse", "Window Builder" ],
-    points: [
-      "Developed a GUI -based library system with modules for login, book issue/return and student management.",
-      "Implemented database connectivity with MYSQL using JDBC for secure and reliable data handling.",
-    ]
-  },
-   {
-    title: "ShareNest",
-    image: ShareNestImg,
-    githubLink: "Ongoing",
-    techStack: [ "react","Tailwind-css","MongoDB","SpringBoot"],
-    points: [
-      "A full-stack file sharing application built with React, Spring Boot, and MongoDB. ",
-      "Users can upload, view, download, delete, and share files with public/private access.",
-      "featuring a modern UI with Tailwind CSS and secure authentication."
-    ]
-  },
-
-  {
-    title: "To_Do_List",
-    image: ToDoImg,
-    projectLink: "https://to-do-list-426u.onrender.com",
-    githubLink: "https://github.com/misbashaikh3099/To_Do_List",
-    techStack: ["React.js", "Bootstrap/Tailwind", "LocalStorage"],
-    points: [
-      "Built a responsive Todo List application with add, delete, and mark-as-done functionality using React.js.",
-      "Implemented LocalStorage for persistent task management across sessions.",
-      "Designed a clean UI with Bootstrap/Tailwind CSS for better user experience.",
-      "Added About page and routing using React Router for multi-page navigation."
-    ]
-  }
 ];
 
 function Projects() {

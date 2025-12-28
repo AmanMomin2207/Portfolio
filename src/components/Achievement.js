@@ -97,33 +97,28 @@ import { Star, Trophy, Medal } from "lucide-react";
 
 const achievementsData = [
   {
-    title: "Java (Silver) Certificate from NPTEL",
-    link: "https://drive.google.com/file/d/1iTfwCwezuvwswZLN4xdhIDdPbjviPJf7/view",
+    title: "Java (Golden) Certificate from NPTEL",
+    link: "https://drive.google.com/file/d/1NV1BB4xleQzqY5tqf5EUFjy8ynpQRp4v/view",
     icon: <Medal className="w-6 h-6" />,
   },
   {
-    title: "2nd Place – National Level Event – Mock Placement",
-    link: "https://drive.google.com/file/d/1Cyq2rPqe86fpFWtCWPg-pi5KNBGaCG-R/view",
+    title: "1st Place – National Level Event – FusionEra-2k24",
+    link: "https://drive.google.com/file/d/1Hku-zknYC5bIdoPcgUuNXS_Atfwe0yT3/view",
     icon: <Trophy className="w-6 h-6" />,
   },
   {
-    title: "Nimbus-2k25 | Runner-up National Level Competition",
-    link: "https://drive.google.com/file/d/1C_0kNJo03UA6wsgTiXF_2RqofCtlpTxb/view?usp=sharing",
+    title: "1st Place – National Level Event – Tech-Trend2k24",
+    link: "https://drive.google.com/file/d/1uMJs9XjEtOyYYhN8LBtyLj6FKK78Ne_Y/view",
+    icon: <Trophy className="w-6 h-6" />,
+  },
+  {
+    title: "2nd Place – National Level Event – Code Crusade - 2k24",
+    link: "https://drive.google.com/file/d/1Q9Gl2CfQAziRrzz88oJ7D_Ltum5wh9jp/view?usp=sharing",
     icon: <Medal className="w-6 h-6" />,
   },
   {
-    title: "Advanced Java Programming with credit points",
-    link: "https://drive.google.com/file/d/1st5GyIZBcvjFhYLzRutZEjvUhjq3DcSn/view",
-    icon: <Medal className="w-6 h-6" />,
-  },
-  {
-    title: "Coding Ninja-I | Certified in Java Programming",
-    link: "https://drive.google.com/file/d/1Q325aan27mSIOp9LO2OxSLU4TgUuhuC4/view",
-    icon: <Medal className="w-6 h-6" />,
-  },
-  {
-    title: "Coding Ninja-II | Certified in Java Programming",
-    link: "https://drive.google.com/drive/u/0/folders/1rjb5FjOBwGGZGKgMIkGIUFvln9O5094G",
+    title: "2nd Place – National Level Event – Quiz Competition",
+    link: "https://drive.google.com/file/d/1WqI64DBxN2ahaec2pRjnbFDe95yo43Ai/view?usp=sharing",
     icon: <Medal className="w-6 h-6" />,
   },
   
@@ -132,32 +127,23 @@ const achievementsData = [
 
 const leadershipData = [
   {
-    title: "Technical Lead – Google Developer Group (GDG) | JJMCOE",
+    title: "GDG Organizer – Google Developer Group (GDG) | JJMCOE",
     description: [
-      "Conducted GCP training and hands-on labs.",
-      "Managed technical communication and resources from Google.",
-      "Collaborated with faculty, industry experts, and peers."
+      "As a GDG Lead at JJMCOE, I organized developer-focused events, workshops, and hackathons, fostering a strong local tech community.",
+      "I collaborated with Google Developers and mentored peers in areas like web development, cloud, and AI."
     ],
     tenure: "Sep 2024 – June 2025",
     icon: <Star className="w-6 h-6" />,
   },
   {
-    title: "Appointed as Secretary - ITESA [2024]",
+    title: "E-CELL Technical CO-ORDINATOR",
     //link: "https://drive.google.com/file/d/1TBM2kFo3GRuQ2HjFb7OC4V6SeWMnY8p6/view",
     description: [
-      "Managed events and coordinated with students and faculty.",
-      "Organized workshops and seminars."
+      "As the Technical Co-ordinator of the E-Cell at JJMCOE, I was responsible for developing and managing tech infrastructure for events, hackathons, and startup workshops.",
+      "I supported innovation by integrating technology into entrepreneurial initiatives.",
     ],
     icon: <Star className="w-6 h-6" />,
-  },
-  {
-    title: "Training & Placement Cell – Working as a lead | JJMCOE",
-    description: [
-      "Mentored TY students for placements and internships.",
-      "Organized mock interviews and training sessions."
-    ],
-    icon: <Star className="w-6 h-6" />,
-  },
+  }
 ];
 
 function Achievement() {

@@ -5,20 +5,20 @@ const educationData = [
   {
     degree: "Bachelor of Technology in Information Technology",
     institution: "Dr. J. J. Magdum College of Engineering, Jaysingpur",
-    year: "2022 - 2026",
-    result: "CGPA: 9.00",
+    year: "2023 - 2026",
+    result: "CGPA: 9.02",
   },
   {
-    degree: "Higher Secondary Education (HSC)",
-    institution: "Kisanveer Mahavidyalaya, Wai",
-    year: "2020 - 2022",
-    result: "Percentage: 63.33%",
+    degree: "Diploma - Computer Science",
+    institution: "Sharad Institute of Technology Polytechnic, Yadrav",
+    year: "2020 - 2023",
+    result: "Percentage: 75.66%",
   },
   {
     degree: "Secondary School Certificate (SSC)",
-    institution: "Dravid High School, Wai",
+    institution: "The New High School, Ichalkaranji",
     year: "2020",
-    result: "Percentage: 94.60%",
+    result: "Percentage: 83.60%",
   },
 ];
 
